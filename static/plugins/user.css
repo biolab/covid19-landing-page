@@ -10,21 +10,21 @@
 .desk-img {
     padding-bottom: 3rem;
     padding-right: 3rem;
-
+    max-height: 300px;
+    max-width: 600px;
 }
 
-
-@media only screen and (min-width: 1200px){
+@media only screen and (max-width: 1280px) {
     .desk-img {
+        padding-right: 1rem !important;
         max-height: 300px;
-        max-width: 600px;
+        width: 400px !important;
     }
 }
 
-@media only screen and (max-width: 1200px) {
-    .desk-img {
-        max-height: 300px;
-        max-width: 400px !important;
+@media only screen and (max-width: 768px) {
+    .illustration {
+        display: none;
     }
     .mobile-img {
         display: block;
@@ -40,6 +40,10 @@
     .section {
         padding-top: 40px;
         padding-bottom: 40px;
+    }
+
+    h1 {
+        font-size: 40px;
     }
 
     h2 {
