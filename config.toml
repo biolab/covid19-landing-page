@@ -90,9 +90,7 @@ image = "images/banner/illustration.svg"
 
 
 [params.opis]
-text = "Na reprezentativnem vzorcu nekaj tisoč prebivalcev bomo po vsej Sloveniji opravili testiranja o razširjenosti novega koronavirusa v populaciji. Z raziskavo bi želeli ugotoviti, koliko prebivalcev je okužbo prebolelo. Raziskavo je podprlo [Ministrstvo za zdravje](https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-zdravje/) in [Vlada Republike Slovenije](https://www.gov.si/drzavni-organi/vlada/), vodi pa jo [Inštitut za mikrobiologijo Medicinske fakultete Univerze v Ljubljani.](http://www.imi.si)"
-
-
+text = "Na reprezentativnem vzorcu nekaj tisoč prebivalcev bomo po vsej Sloveniji opravili testiranja o razširjenosti novega koronavirusa v populaciji. Z raziskavo želimo ugotoviti, koliko prebivalcev je okužbo prebolelo – ta podatek je ključnega pomena za razumevanje stanja razširjenosti COVID-19 v Sloveniji. Raziskavo je podprlo [Ministrstvo za zdravje](https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-zdravje/) in [Vlada Republike Slovenije](https://www.gov.si/drzavni-organi/vlada/). Vodi jo [Inštitut za mikrobiologijo Medicinske fakultete Univerze v Ljubljani](http://www.imi.si)."
 ######################## Logos ###############################
 [params.imi]
 img = "images/logos/imi.png"
