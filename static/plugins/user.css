@@ -7,7 +7,25 @@
     width: auto;
 }
 
-@media only screen and (max-width: 600px) {
+.desk-img {
+    padding-bottom: 3rem;
+    padding-right: 3rem;
+
+}
+
+
+@media only screen and (min-width: 1200px){
+    .desk-img {
+        max-height: 300px;
+        max-width: 600px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .desk-img {
+        max-height: 300px;
+        max-width: 400px !important;
+    }
     .mobile-img {
         display: block;
         max-height:120px;
