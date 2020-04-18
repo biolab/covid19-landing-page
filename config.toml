@@ -2,7 +2,7 @@
 baseURL = "https://examplesite.com/"
 languageCode = "en-us"
 # site title 
-title = ""
+title = "Nacionalna raziskava o razširjenosti bolezni COVID-19 v Sloveniji"
 # theme
 theme = "northendlab"
 # post pagination
@@ -66,7 +66,7 @@ google_analitycs_id = "" # your id
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # copyright
-copyright = "&copy; 2020 [Gethugothemes](https://gethugothemes.com) All Rights Reserved"
+copyright = "&copy; Spletno stran in informacijsko podporo so pripravili sodelavci Biolab-a in razvijalci programa Orange na UL FRI. Ljubljana, 2020. [Biolab](https://fri.uni-lj.si/en/laboratory/biolab) | [Orange](https://orange.biolab.si/) | [FRI](https://www.fri.uni-lj.si/sl)"
 
 # preloader
 [params.preloader]
@@ -92,16 +92,17 @@ image = "images/banner/illustration.svg"
 text = "Na reprezentativnem vzorcu nekaj tisoč prebivalcev bomo po vsej Sloveniji opravili testiranja o razširjenosti novega koronavirusa v populaciji. Z raziskavo bi želeli ugotoviti, koliko prebivalcev je okužbo prebolelo. Raziskavo je podprlo Ministrstvo za zdravje in Vlada Republike Slovenije, vodi pa jo Inštitut za mikrobiologijo Medicinske fakultete Univerze v Ljubljani."
 
 
-######################## call to action ###############################
-[params.cta]
-enable = true
-image = "images/hugo-muscot.svg"
-title = "Get the best hugo templates"
-description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
-[params.cta.button]
-enable = true
-label = "Visit Here"
-link = "https://gethugothemes.com/shop/"
+######################## Logos ###############################
+[[params.logos]]
+img = "images/logos/imi.png"
+[[params.logos]]
+img = "images/logos/nmp.png"
+[[params.logos]]
+img = "images/logos/surs.png"
+[[params.logos]]
+img = "images/logos/fri.png"
+[[params.logos]]
+img = "images/logos/fdv.jpg"
 
 
 ############################## Social Site ##########################
