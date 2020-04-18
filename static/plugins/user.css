@@ -1,0 +1,30 @@
+.large-logo {
+    height: 120px;
+    width: auto;
+}
+.small-icon {
+    height: 80px;
+    width: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .mobile-img {
+        display: block;
+        max-height:120px;
+        width: auto;
+        height: auto;
+    }
+    .small-icon {
+        height: 60px;
+        width: auto;
+    }
+
+    .section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 30px
+    }
+}

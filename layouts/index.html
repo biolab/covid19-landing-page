@@ -2,32 +2,32 @@
 
 <!-- banner -->
 <section class="banner bg-cover" style="background-image: url('{{ .Site.Params.banner.bgImage | relURL }}');padding-top: 0">
-  <img style="max-height: 300px;max-width: 600px" src="{{ .Site.Params.banner.image | relURL }}" class="img-fluid illustration" alt="">
+  <img style="max-height: 300px;max-width: 600px" src="{{ .Site.Params.banner.image | relURL }}" class="img-fluid illustration pb-3" alt="">
   <div class="row mx-auto">
     <div class="col mx-auto text-center pt-3"><h1 class="lead" style="font-size: 2.5rem">Nacionalna raziskava o razširjenosti bolezni COVID-19 v Sloveniji</h1></div>
   </div>
   <div class="container" style="padding-top: 50px">
     <div class="row">
-      <div class="col-lg-10 mb-10 mb-lg-0 col-12">
+      <div class="col-lg-12 mb-10 mb-lg-0 col-12">
         <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-4 col-5 text-right"><h1>{{ .Site.Params.banner.povabljeniPrebivalci | markdownify }} |</h1></div>
-          <div class="col-lg-9 col-md-9 col-sm-8 col-7"><h2><small class="text-muted"> prebivalcev Slovenije povabljenih k testiranju</small></h2></div>
+          <div class="col-lg-3 col-md-3 col-sm-4 col-6 text-right"><h1>{{ .Site.Params.banner.povabljeniPrebivalci | markdownify }} |</h1></div>
+          <div class="col-lg-9 col-md-9 col-sm-8 col-6"><h2><small class="text-muted"> prebivalcev Slovenije povabljenih k testiranju</small></h2></div>
         </div>
         <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-4 col-5 text-right"><h1>{{ .Site.Params.banner.sprejetaPovabila | markdownify }} |</h1></div>
-          <div class="col-lg-9 col-md-9 col-sm-8 col-7"><h2><small class="text-muted"> sprejetih povabil - hvala!</small></h2></div>
+          <div class="col-lg-3 col-md-3 col-sm-4 col-6 text-right"><h1>{{ .Site.Params.banner.sprejetaPovabila | markdownify }} |</h1></div>
+          <div class="col-lg-9 col-md-9 col-sm-8 col-6"><h2><small class="text-muted"> sprejetih povabil - hvala!</small></h2></div>
         </div>
         <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-4 col-5 text-right"><h1>{{ .Site.Params.banner.odvzetihVzorcev | markdownify }} |</h1></div>
-          <div class="col-lg-9 col-md-9 col-sm-8 col-7"><h2><small class="text-muted"> odvzetih vzorcev</small></h2></div>
+          <div class="col-lg-3 col-md-3 col-sm-4 col-6 text-right"><h1>{{ .Site.Params.banner.odvzetihVzorcev | markdownify }} |</h1></div>
+          <div class="col-lg-9 col-md-9 col-sm-8 col-6"><h2><small class="text-muted"> odvzetih vzorcev</small></h2></div>
         </div>
         <div class="row mt-3">
-          <div class="col-lg-3 col-md-3 col-sm-4 col-5 text-right" ><h6><small>Podatki ažurirani:</small></h6></div>
-          <div class="col-lg-9 col-md-9 col-sm-8 col-7" style="padding-left: 0"><h6>{{ .Site.Params.banner.dateHour }}</h6></div>
+          <div class="col-lg-3 col-md-3 col-sm-4 col-6 text-right" ><h6><small>Podatki ažurirani:</small></h6></div>
+          <div class="col-lg-9 col-md-9 col-sm-8 col-6" style="padding-left: 0"><h6>{{ .Site.Params.banner.dateHour }}</h6></div>
         </div>
       </div>
       <div class="col-lg-2 illustration-mobile">
-        <img src="{{ .Site.Params.banner.image | relURL }}" class="img-fluid" alt="">
+        <img style="max-height: 200px" src="{{ .Site.Params.banner.image | relURL }}" class="img-fluid pb-3" alt="">
       </div>
     </div>
   </div>
@@ -54,18 +54,21 @@
   <div class="container-fluid text-center">
     <div class="row d-flex justify-content-center pb-5">
       <div class="col">
-        <img class="img-fluid" style="height: 120px; width:auto" src="{{ .Site.Params.imi.img | relURL }}" alt="Card image">
+        <img class="img-fluid mobile-img large-logo" src="{{ .Site.Params.imi.img | relURL }}" alt="Card image">
       </div>
     </div>
     <div class="row d-flex justify-content-center">
       {{ range .Site.Params.logos }}
       <div class="col-auto col-sm-offset-3">
-        <img class="img-fluid" style="height: 80px; width:auto" src="{{ .img | relURL }}" alt="Card image">
+        <img class="img-fluid small-icon" src="{{ .img | relURL }}" alt="Card image">
       </div>
       {{ end }}
     </div>
   </div>
 </section>
 <!-- /cta -->
+<style>
+
+</style>
 
 {{ end }}

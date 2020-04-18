@@ -22,6 +22,8 @@ home = ["HTML", "AMP", "RSS", "JSON"]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
+[params.css]
+link = "plugins/user.css"
 
 # js plugins
 [[params.plugins.js]]
