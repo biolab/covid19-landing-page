@@ -66,7 +66,7 @@ google_analitycs_id = "" # your id
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # copyright
-copyright = "&copy; Spletno stran in informacijsko podporo so pripravili sodelavci Biolab-a in razvijalci programa Orange na UL FRI. Ljubljana, 2020. [Biolab](https://fri.uni-lj.si/en/laboratory/biolab) | [Orange](https://orange.biolab.si/) | [FRI](https://www.fri.uni-lj.si/sl)"
+copyright = "&copy; Spletno stran in informacijsko podporo so pripravili sodelavci [Biolab-a](https://fri.uni-lj.si/en/laboratory/biolab) in razvijalci programa [Orange](https://orange.biolab.si/)  na [UL FRI](https://www.fri.uni-lj.si/sl). Ljubljana, 2020."
 
 # preloader
 [params.preloader]
@@ -93,7 +93,7 @@ text = "Na reprezentativnem vzorcu nekaj tisoč prebivalcev bomo po vsej Sloveni
 
 
 ######################## Logos ###############################
-[[params.logos]]
+[params.imi]
 img = "images/logos/imi.png"
 [[params.logos]]
 img = "images/logos/nmp.png"
