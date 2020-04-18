@@ -2,7 +2,7 @@
 baseURL = "https://examplesite.com/"
 languageCode = "en-us"
 # site title 
-title = "Nacionalna raziskava o razširjenosti bolezni COVID-19 v Sloveniji"
+title = "Nacionalna raziskava o razširjenosti bolezni COVID-19 v Sloveniji0"
 # theme
 theme = "northendlab"
 # post pagination
