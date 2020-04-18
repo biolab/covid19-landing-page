@@ -68,8 +68,7 @@ google_analitycs_id = "" # your id
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # copyright
-copyright = "&copy; Spletno stran in informacijsko podporo so pripravili sodelavci [Biolab-a](https://fri.uni-lj.si/en/laboratory/biolab) in razvijalci programa [Orange](https://orange.biolab.si/)  na [UL FRI](https://www.fri.uni-lj.si/sl). Ljubljana, 2020."
-
+copyright = "&copy; Spletno stran in informacijsko podporo so pripravili sodelavci iz [Biolaba](https://fri.uni-lj.si/en/laboratory/biolab) na [UL FRI](https://www.fri.uni-lj.si/sl) – razvijalci programa za podatkovno rudarjenje [Orange](https://orange.biolab.si/). Ljubljana, 2020."
 # preloader
 [params.preloader]
 enable = true
@@ -91,20 +90,25 @@ image = "images/banner/illustration.svg"
 
 
 [params.opis]
-text = "Na reprezentativnem vzorcu nekaj tisoč prebivalcev bomo po vsej Sloveniji opravili testiranja o razširjenosti novega koronavirusa v populaciji. Z raziskavo bi želeli ugotoviti, koliko prebivalcev je okužbo prebolelo. Raziskavo je podprlo Ministrstvo za zdravje in Vlada Republike Slovenije, vodi pa jo Inštitut za mikrobiologijo Medicinske fakultete Univerze v Ljubljani."
+text = "Na reprezentativnem vzorcu nekaj tisoč prebivalcev bomo po vsej Sloveniji opravili testiranja o razširjenosti novega koronavirusa v populaciji. Z raziskavo bi želeli ugotoviti, koliko prebivalcev je okužbo prebolelo. Raziskavo je podprlo [Ministrstvo za zdravje](https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-zdravje/) in [Vlada Republike Slovenije](https://www.gov.si/drzavni-organi/vlada/), vodi pa jo [Inštitut za mikrobiologijo Medicinske fakultete Univerze v Ljubljani.](http://www.imi.si)"
 
 
 ######################## Logos ###############################
 [params.imi]
 img = "images/logos/imi.png"
-[[params.logos]]
-img = "images/logos/nmp.png"
-[[params.logos]]
-img = "images/logos/surs.png"
+link = "http://www.imi.si"
 [[params.logos]]
 img = "images/logos/fri.png"
+link = "https://www.fri.uni-lj.si/sl"
+[[params.logos]]
+img = "images/logos/nmp.png"
+link = "https://www.facebook.com/NMPSlovenija/"
+[[params.logos]]
+img = "images/logos/surs.png"
+link = "https://www.stat.si/"
 [[params.logos]]
 img = "images/logos/fdv.jpg"
+link = "https://www.fdv.uni-lj.si/"
 
 
 ############################## Social Site ##########################

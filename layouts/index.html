@@ -10,20 +10,20 @@
     <div class="row">
       <div class="col-lg-12 mb-10 mb-lg-0 col-12">
         <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-4 col-6 text-right"><h1>{{ .Site.Params.banner.povabljeniPrebivalci | markdownify }} |</h1></div>
-          <div class="col-lg-9 col-md-9 col-sm-8 col-6"><h2><small class="text-muted"> prebivalcev Slovenije povabljenih k testiranju</small></h2></div>
+          <div class="col-lg-3 col-md-3 col-sm-4 col-5 text-right"><h1>{{ .Site.Params.banner.povabljeniPrebivalci | markdownify }} |</h1></div>
+          <div class="col-lg-9 col-md-9 col-sm-8 col-7"><h2><small class="text-muted"> prebivalcev Slovenije povabljenih k testiranju</small></h2></div>
         </div>
         <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-4 col-6 text-right"><h1>{{ .Site.Params.banner.sprejetaPovabila | markdownify }} |</h1></div>
-          <div class="col-lg-9 col-md-9 col-sm-8 col-6"><h2><small class="text-muted"> sprejetih povabil - hvala!</small></h2></div>
+          <div class="col-lg-3 col-md-3 col-sm-4 col-5 text-right"><h1>{{ .Site.Params.banner.sprejetaPovabila | markdownify }} |</h1></div>
+          <div class="col-lg-9 col-md-9 col-sm-8 col-7"><h2><small class="text-muted"> sprejetih povabil - hvala!</small></h2></div>
         </div>
         <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-4 col-6 text-right"><h1>{{ .Site.Params.banner.odvzetihVzorcev | markdownify }} |</h1></div>
-          <div class="col-lg-9 col-md-9 col-sm-8 col-6"><h2><small class="text-muted"> odvzetih vzorcev</small></h2></div>
+          <div class="col-lg-3 col-md-3 col-sm-4 col-5 text-right"><h1>{{ .Site.Params.banner.odvzetihVzorcev | markdownify }} |</h1></div>
+          <div class="col-lg-9 col-md-9 col-sm-8 col-7"><h2><small class="text-muted"> odvzetih vzorcev</small></h2></div>
         </div>
-        <div class="row mt-3">
-          <div class="col-lg-3 col-md-3 col-sm-4 col-6 text-right" ><h6><small>Podatki ažurirani:</small></h6></div>
-          <div class="col-lg-9 col-md-9 col-sm-8 col-6" style="padding-left: 0"><h6>{{ .Site.Params.banner.dateHour }}</h6></div>
+        <div class="row mt-5">
+          <div class="col-lg-3 col-md-3 col-sm-4 col-5 text-right" ><h6><small>Podatki ažurirani:</small></h6></div>
+          <div class="col-lg-9 col-md-9 col-sm-8 col-7" style="padding-left: 0"><h6>{{ .Site.Params.banner.dateHour }}</h6></div>
         </div>
       </div>
     </div>
@@ -37,7 +37,7 @@
       <div class="col-lg-8 mx-auto">
         <div class="row shadow bg-white p-5">
           <div class="col-md-12 mb-4 mb-lg-0">
-            <p>{{ .Site.Params.opis.text }}</p>
+            <p>{{ .Site.Params.opis.text | markdownify }}</p>
           </div>
         </div>
       </div>
@@ -51,13 +51,17 @@
   <div class="container-fluid text-center">
     <div class="row d-flex justify-content-center pb-5">
       <div class="col">
-        <img class="img-fluid mobile-img large-logo mx-auto" src="{{ .Site.Params.imi.img | relURL }}" alt="Card image">
+        <a href="{{ .Site.Params.imi.link }}">
+         <img class="img-fluid mobile-img large-logo mx-auto" src="{{ .Site.Params.imi.img | relURL }}" alt="Card image">
+        </a>
       </div>
     </div>
     <div class="row d-flex justify-content-center">
       {{ range .Site.Params.logos }}
       <div class="col-auto col-sm-offset-3">
-        <img class="img-fluid small-icon" src="{{ .img | relURL }}" alt="Card image">
+        <a href ="{{ .link }}">
+          <img class="img-fluid small-icon" src="{{ .img | relURL }}" alt="Card image">
+        </a>
       </div>
       {{ end }}
     </div>
