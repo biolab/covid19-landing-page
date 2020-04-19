@@ -99,12 +99,6 @@ link = "http://www.imi.si"
 img = "images/logos/fri.png"
 link = "https://www.fri.uni-lj.si/sl"
 [[params.logos]]
-img = "images/logos/nmp.png"
-link = "https://www.facebook.com/NMPSlovenija/"
-[[params.logos]]
-img = "images/logos/surs.png"
-link = "https://www.stat.si/"
-[[params.logos]]
 img = "images/logos/fdv.jpg"
 link = "https://www.fdv.uni-lj.si/"
 
