@@ -1,9 +1,9 @@
 .large-logo {
-    height: 120px;
+    height: 150px;
     width: auto;
 }
 .small-icon {
-    height: 80px;
+    height: 150px;
     width: auto;
 }
 
@@ -40,7 +40,7 @@
         height: auto;
     }
     .small-icon {
-        height: 60px;
+        height: 100px;
         width: auto;
     }
 

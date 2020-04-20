@@ -1,0 +1,11 @@
+.idea/workspace.xml
+.idea/markdown-navigator.xml
+.idea/markdown-navigator/profiles_settings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+*.iml
+public/
+# Local Netlify folder
+.netlify
+resources/_gen
