@@ -47,4 +47,10 @@
   {{ end }}
   <!-- End Google Tag Manager -->
 
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  <meta property="og:image" content="https://covid19.biolab.si/images/banner/illustration.jpg">
+  <meta property="og:url" content="https://covid19.biolab.si/">
+  <meta name="twitter:card" content="summary_large_image">
+
 </head>
