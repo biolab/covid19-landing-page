@@ -11,6 +11,8 @@ paginate = "5"
 summaryLength = "10"
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
+# generate robots.txt
+enableRobotsTXT = "true"
 
 # disable Taxonomies and Categories
 disableKinds = ["taxonomy", "taxonomyTerm"]
