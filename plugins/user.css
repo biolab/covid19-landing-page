@@ -1,0 +1,71 @@
+.large-logo {
+    height: 150px;
+    width: auto;
+}
+.small-icon {
+    height: 150px;
+    width: auto;
+}
+
+footer {
+    font-size: medium;
+}
+
+.desk-img {
+    padding-bottom: 3rem;
+    padding-right: 3rem;
+    max-height: 300px;
+    max-width: 600px;
+}
+
+.padding-desktop {
+    padding-top: 3rem;
+}
+
+p {
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .desk-img {
+        padding-right: 1rem !important;
+        max-height: 300px;
+        width: 400px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile-padding {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .padding-desktop {
+        padding-top: 1rem;
+    }
+    .illustration {
+        display: none;
+    }
+    .mobile-img {
+        display: block;
+        max-height:120px;
+        width: auto;
+        height: auto;
+    }
+    .small-icon {
+        height: 100px;
+        width: auto;
+    }
+
+    .section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px
+    }
+}
