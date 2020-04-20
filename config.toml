@@ -61,6 +61,7 @@ logo = "images/logo.svg"
 # meta data
 author = "Themefisher"
 description = "Sledite statistiki o razširjenosti bolezni COVID-19 v živo."
+longdescription = "Koliko ljudi v Sloveniji je v tem trenutku aktivno okuženih z virusom SARS-CoV-2? Kolikšen delež med njimi je asimptomatskih in sploh ne vedo, da so okuženi?"
 # google tag manager
 google_tag_manager = "" # your id
 # google analitycs ID
