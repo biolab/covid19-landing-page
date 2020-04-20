@@ -20,3 +20,5 @@ Raziskavo je podprlo [Ministrstvo za zdravje](https://www.gov.si/drzavni-organi/
 Raziskavo vodi [Inštitut za mikrobiologijo in imunologijo Medicinske fakultete Univerze v Ljubljani](http://www.imi.si).
 Vodja raziskave je prof. dr. Mario Poljak, dr. med.
 
+**V izogib zlorabam vas prosimo, da nenajavljenim osebam, ki bi se predstavljale kot izvajalci Nacionalne raziskave o COVID-19, ne odpirate vrat! Če ste dobili pošto s povabilom za sodelovanje v raziskavi, vas bodo naši raziskovalci predhodno poklicali po telefonu in se dogovorili za točen termin obiska.**
+
