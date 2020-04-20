@@ -31,6 +31,10 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
+    .mobile-padding {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     .padding-desktop {
         padding-top: 1rem;
     }

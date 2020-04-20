@@ -58,7 +58,7 @@
     </div>
     <div class="row d-flex justify-content-center">
       {{ range .Site.Params.logos }}
-      <div class="col-auto col-sm-offset-3">
+      <div class="col-auto col-sm-offset-3 mobile-padding">
         <a href ="{{ .link }}">
           <img class="img-fluid small-icon" src="{{ .img | relURL }}" alt="Card image">
         </a>
