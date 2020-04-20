@@ -1,6 +1,6 @@
 ############################ Default configuration #########################
 baseURL = "https://covid19.biolab.si/"
-languageCode = "en-us"
+languageCode = "sl"
 # site title 
 title = "Nacionalna raziskava o razširjenosti bolezni COVID-19"
 # theme
