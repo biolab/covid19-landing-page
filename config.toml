@@ -2,7 +2,7 @@
 baseURL = "https://covid19.biolab.si/"
 languageCode = "en-us"
 # site title 
-title = "Nacionalna raziskava o razširjenosti bolezni COVID-19 v Sloveniji"
+title = "Nacionalna raziskava o razširjenosti bolezni COVID-19"
 # theme
 theme = "northendlab"
 # post pagination
