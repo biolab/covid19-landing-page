@@ -8,4 +8,4 @@
 public/
 # Local Netlify folder
 .netlify
-resources/_gen
+/resources/
