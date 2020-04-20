@@ -60,7 +60,7 @@ home = "Home"
 logo = "images/logo.svg"
 # meta data
 author = "Themefisher"
-description = "This is meta description"
+description = "Sledite statistiki o razširjenosti bolezni COVID-19 v živo."
 # google tag manager
 google_tag_manager = "" # your id
 # google analitycs ID
