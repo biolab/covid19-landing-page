@@ -7,6 +7,10 @@
     width: auto;
 }
 
+footer {
+    font-size: medium;
+}
+
 .desk-img {
     padding-bottom: 3rem;
     padding-right: 3rem;
