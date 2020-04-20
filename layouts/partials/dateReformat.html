@@ -1,6 +1,2 @@
-{{- $fix := replace (substr . 0 10 ) "-" "." -}}
-{{ substr $fix 8 2 }}.{{ substr $fix 5 2 }}.{{ substr $fix 0 4}}
-
-<!--
-//TODO Add DateFormating from podatki.json to webview
--->
+{{ $time := time (int .) }}
+{{ $time.Day }}.{{ printf "%d" $time.Month }}.{{ $time.Year }} ob {{ $time.Hour }}:{{ $time.Minute}}
