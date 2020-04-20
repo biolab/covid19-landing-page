@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /images
-
-Sitemap: https://covid19.biolab.si/sitemap.xml
