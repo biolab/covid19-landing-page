@@ -1,5 +1,5 @@
 ############################ Default configuration #########################
-baseURL = "https://examplesite.com/"
+baseURL = "https://covid19.biolab.si/"
 languageCode = "en-us"
 # site title 
 title = "Nacionalna raziskava o razširjenosti bolezni COVID-19 v Sloveniji"
