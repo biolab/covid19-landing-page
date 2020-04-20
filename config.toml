@@ -12,6 +12,8 @@ summaryLength = "10"
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
 
+# disable Taxonomies and Categories
+disableKinds = ["taxonomy", "taxonomyTerm"]
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
 
