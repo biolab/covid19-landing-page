@@ -15,6 +15,6 @@ iii) koliko ljudi v Sloveniji je prišlo v stik z virusom SARS-CoV-2 in bolezen 
 
 V drugi fazi raziskave bomo preiskovance po 6 mesecih ponovno prosili za vzorec krvi za serološko testiranje na SARS-CoV-2; ti rezultati bodo podali dokončno oceno prekuženosti oz. števila prebivalcev Slovenije, ki so prišli v stik s SARS-CoV-2 v prvem valu epidemije.
 Raziskavo je podprlo [Ministrstvo za zdravje](https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-zdravje/) in [Vlada Republike Slovenije](https://www.gov.si/drzavni-organi/vlada/). Etičnost raziskave je preverila in potrdila Komisija Republike Slovenije za medicinsko etiko pri Ministrstvu za zdravje (številka odobritve 0120-199/2020/19).
-Raziskavo vodi Inštitut za mikrobiologijo in imunologijo Medicinske fakultete Univerze v Ljubljani.
+Raziskavo vodi [Inštitut za mikrobiologijo in imunologijo Medicinske fakultete Univerze v Ljubljani](http://www.imi.si).
 Vodilni raziskovalec: prof. dr. Mario Poljak, dr. med.
 
