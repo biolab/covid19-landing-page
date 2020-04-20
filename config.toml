@@ -93,17 +93,17 @@ img = "images/logos/imi.png"
 link = "http://www.imi.si"
 
 [[params.logos]]
-img = "images/logos/kclj.png"
-link = "https://www.kclj.si/"
-[[params.logos]]
 img = "images/logos/fri.svg"
 link = "https://www.fri.uni-lj.si/sl"
 [[params.logos]]
-img = "images/logos/mf.svg"
-link = "http://mf.uni-lj.si"
+img = "images/logos/kclj.png"
+link = "https://www.kclj.si/"
 [[params.logos]]
 img = "images/logos/fdv.svg"
 link = "https://www.fdv.uni-lj.si/"
+[[params.logos]]
+img = "images/logos/mf.svg"
+link = "http://mf.uni-lj.si"
 
 
 
