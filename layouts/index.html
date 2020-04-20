@@ -52,7 +52,7 @@
     <div class="row d-flex justify-content-center pb-5">
       <div class="col">
         <a href="{{ .Site.Params.imi.link }}">
-         <img class="img-fluid mobile-img large-logo mx-auto" src="{{ .Site.Params.imi.img | relURL }}" alt="Card image">
+         <img class="img-fluid mobile-img large-logo mx-auto" src="{{ .Site.Params.imi.img | relURL }}" alt="{{ .Site.Params.imi.alt }}">
         </a>
       </div>
     </div>
@@ -60,7 +60,7 @@
       {{ range .Site.Params.logos }}
       <div class="col-auto col-sm-offset-3 mobile-padding">
         <a href ="{{ .link }}">
-          <img class="img-fluid small-icon" src="{{ .img | relURL }}" alt="Card image">
+          <img class="img-fluid small-icon" src="{{ .img | relURL }}" alt="{{ .alt }}">
         </a>
       </div>
       {{ end }}

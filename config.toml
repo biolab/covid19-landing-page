@@ -92,19 +92,24 @@ text = "Na reprezentativnem vzorcu nekaj tisoč prebivalcev bomo po vsej Sloveni
 [params.imi]
 img = "images/logos/imi.png"
 link = "http://www.imi.si"
+alt= "Inštitut za mikrobiologijo in imunologijo"
 
-[[params.logos]]
-img = "images/logos/fri.svg"
-link = "https://www.fri.uni-lj.si/sl"
 [[params.logos]]
 img = "images/logos/kclj.png"
 link = "https://www.kclj.si/"
+alt = "Univerzitetni klinični center Ljubljana"
 [[params.logos]]
-img = "images/logos/fdv.svg"
-link = "https://www.fdv.uni-lj.si/"
+img = "images/logos/fri.svg"
+link = "https://www.fri.uni-lj.si/sl"
+alt = "Fakulteta za računalništvo in informatiko"
 [[params.logos]]
 img = "images/logos/mf.svg"
 link = "http://mf.uni-lj.si"
+alt = "Medicinska fakulteta"
+[[params.logos]]
+img = "images/logos/fdv.svg"
+link = "https://www.fdv.uni-lj.si/"
+alt = "Fakulteta za družbene vede"
 
 
 
