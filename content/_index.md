@@ -17,5 +17,5 @@ V drugi fazi raziskave bomo preiskovance po 6 mesecih ponovno prosili za vzorec 
 
 Raziskavo je podprlo [Ministrstvo za zdravje](https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-zdravje/) in [Vlada Republike Slovenije](https://www.gov.si/drzavni-organi/vlada/). Etičnost raziskave je preverila in potrdila Komisija Republike Slovenije za medicinsko etiko pri Ministrstvu za zdravje (številka odobritve 0120-199/2020/19).
 Raziskavo vodi [Inštitut za mikrobiologijo in imunologijo Medicinske fakultete Univerze v Ljubljani](http://www.imi.si).
-Raziskavo vodi prof. dr. Mario Poljak, dr. med.
+Vodja raziskave je prof. dr. Mario Poljak, dr. med.
 
