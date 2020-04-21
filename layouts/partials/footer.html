@@ -7,6 +7,48 @@
   </div>
 </footer>
 <!-- /footer -->
+<!-- cookies -->
+<div id="cookiemodal" class="cookie-modal">
+  <div class="cookie-modal-container">
+    <div class="cookie-modal-container-content">
+      <div class="cookie-modal-container-content-title">Piškotki</div>
+      <div class="cookie-modal-container-content-text">
+        <p>Ta stran uporablja piškotke z namenom zagotavljanja najboljše spletne storitve in funkcionalnosti.</p>
+      </div>
+      <button id="cookieagree" class="cookie-modal-container-content-button">OK</button>
+    </div>
+    <div id="cookieclose" class="cookie-modal-container-close"></div>
+  </div>
+</div>
+<!-- google analytics -->
+{{ with .Site.Params.google_analitycs_id }}
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', '{{ . }}', 'auto');
+  ga('send', 'pageview');
+
+  function cookienoticed() {
+    document.getElementById("cookiemodal").style.display = 'none';
+    document.cookie = "cookienotice=true; expires=Fri, 31 Dec 9999 23:59:59 GMT;";
+  }
+
+  if (document.cookie.indexOf("cookienotice=true") === -1) {
+    document.getElementById("cookiemodal").style.display = 'initial';
+    document.getElementById("cookieagree").addEventListener("click", cookienoticed);
+    document.getElementById("cookieclose").addEventListener("click", cookienoticed);
+  }
+</script>
+{{ end }}
 
 <!-- search index -->
 {{ if .Site.Params.search.enable }}
@@ -23,22 +65,3 @@
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
-
-{{ "<!-- google analitycs -->" | safeHTML }}
-{{ with .Site.Params.google_analitycs_id }}
-<script>
-  (function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r;
-    i[r] = i[r] || function () {
-      (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date();
-    a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0];
-    a.async = 1;
-    a.src = g;
-    m.parentNode.insertBefore(a, m)
-  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-  ga('create', '{{ . }}', 'auto');
-  ga('send', 'pageview');
-</script>
-{{ end }}
