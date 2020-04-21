@@ -23,7 +23,17 @@
         </div>
         <div class="row mt-5">
           <div class="col-lg-3 col-md-3 col-sm-4 col-6 text-right" ><h6><small>Podatki ažurirani:</small></h6></div>
-          <div class="col-lg-9 col-md-9 col-sm-8 col-6" style="padding-left: 0"><h6>{{ .Site.Data.podatki.dateHour }}</h6></div>
+          <div class="col-lg-9 col-md-9 col-sm-8 col-6" style="padding-left: 0">
+            <h6>
+              <script>
+                let d = new Date("{{.Site.Data.podatki.dateHour}}");
+                document.write(`${d.getDate()}. ${d.getMonth() + 1}. ${d.getFullYear()} ob ${d.getHours()}.${("0" + d.getMinutes()).slice(-2)}`);
+              </script>
+              <noscript>
+                {{ dateFormat "2. 1. 2006 ob 15:04" .Site.Data.podatki.dateHour }}
+              </noscript>
+            </h6>
+          </div>
         </div>
       </div>
     </div>
