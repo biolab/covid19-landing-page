@@ -7,15 +7,18 @@ on:
 
 jobs:
   update_job:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
       - name: Set up Python 3.8
         uses: actions/setup-python@v1
         with:
           python-version: 3.8
-
+      # Update it,
       - name: Install dependencies
         run: |
           python -m pip install --upgrade requests
@@ -33,3 +36,17 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+      # Build it,
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.68.3'
+
+      - name: Build
+        run: hugo --minify
+      # Deploy it!
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
