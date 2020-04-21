@@ -3,7 +3,7 @@ name: Statistics update
 # Note: https://crontab.guru/#*/15_*_*_*_*
 on:
   schedule:
-    - cron:  '*/1 * * * *'
+    - cron:  '*/15 * * * *'
 
 jobs:
   update_job:
