@@ -26,11 +26,35 @@ p {
     font-size: 17px;
 }
 
+.header-title {
+    white-space: normal;
+    word-wrap: break-word;
+    font-size: 1.7rem;
+}
+
+.header-title:hover {
+    color: #e8505b;
+}
+
+.banner {
+    padding: 150px 0 150px;
+}
 @media only screen and (max-width: 1280px) {
     .desk-img {
         padding-right: 1rem !important;
         max-height: 300px;
         width: 400px !important;
+    }
+
+    .banner {
+        padding: 150px 0 150px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .banner {
+        padding: 50px 0 0;
     }
 }
 
@@ -67,5 +91,11 @@ p {
 
     h2 {
         font-size: 30px
+    }
+
+    .header-title {
+        white-space: normal;
+        word-wrap: break-word;
+        font-size: 1rem;
     }
 }

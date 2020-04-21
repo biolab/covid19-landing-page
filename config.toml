@@ -44,6 +44,12 @@ link = "plugins/search/search.js"
 
 ########################### Navigation ###################################
 
+# main menu
+[[menu.main]]
+URL = "sodelavci"
+name = "Sodelavci"
+weight = 1
+
 # footer menu
 [[menu.footer]]
 URL = "contact"
@@ -58,10 +64,8 @@ weight = 2
 
 ######################### Default Parameters ###########################
 [params]
-# home
-home = "Home"
 # logo
-logo = "images/logo.svg"
+logo = "images/covid_logo.svg"
 # meta data
 author = "Themefisher"
 description = "Sledite poteku raziskave o razširjenosti bolezni COVID-19 v živo."
@@ -81,7 +85,7 @@ preloader = "" # use png, jpg, svg or gif format
 
 # search
 [params.search]
-enable = true
+enable = false
 
 
 ####################### banner #######################################
