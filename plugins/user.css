@@ -103,3 +103,122 @@ p {
 .content h4 {
     padding-top: 24pt;
 }
+
+
+.cookie-modal{
+  display: none;
+  position:fixed;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  left: auto;
+  top: auto;
+  height: auto;
+  max-width: 500px;
+  min-width: 300px;
+  background: transparent;
+  z-index: 99999;
+}
+
+.cookie-modal-container{
+  box-sizing: border-box;
+  vertical-align: baseline;
+  position: relative;
+  min-height: 88px;
+  background: rgba(21, 26, 35, 0.95);
+  background: linear-gradient(to bottom, #283244 0%, rgba(21, 26, 35, 0.95) 100%);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cookie-modal-container-close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 44px;
+  width: 44px;
+  color: #69707c;
+  cursor: pointer;
+}
+
+.cookie-modal-container-close:before,
+.cookie-modal-container-close:after {
+  transform: rotate(-45deg);
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 0;
+  margin-left: -10px;
+  display: block;
+  height: 3px;
+  width: 15px;
+  background-color: #fff;
+  transition: all 0.25s ease-out;
+}
+.cookie-modal-container-close:after {
+  transform: rotate(-135deg);
+}
+
+.cookie-modal-container-content{
+  color: #fff;
+  position: relative;
+  padding: 20px;
+}
+
+.cookie-modal-container-content-title{
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1;
+  height: 17px;
+}
+
+.cookie-modal-container-content-text p{
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 10px 0;
+  padding-bottom: 5px;
+}
+
+.cookie-modal-container-content-button{
+  padding: 4px 20px;
+  font-size: 13px;
+  display: inline-block;
+  position: relative;
+  background-color: #0e86ca;
+  border: solid 1px #00aeff;
+  font-weight: 400;
+  line-height: 1;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  outline: 0;
+  overflow: visible;
+  max-width: 100%;
+  transition: color 200ms, background-color 200ms, border-color 200ms;
+}
+
+.cookie-modal-container-content-link{
+ padding: 4px 20px;
+  font-size: 13px;
+  display: inline-block;
+  position: relative;
+  background-color: rgba(0,0,0,0.3);
+  border: solid 1px #ccc;
+  font-weight: 400;
+  line-height: 1;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  outline: 0;
+  overflow: visible;
+  max-width: 100%;
+  transition: color 200ms, background-color 200ms, border-color 200ms;
+}
