@@ -15,7 +15,7 @@ znan. sod. dr. **Anja Oštrbenk Valenčak**, koordinator raziskave\
 znan. sod. dr. **Miša Korva**, koordinator laboratorijskega testiranja\
 znan. sod. dr. **Nataša Knap**, koordinator laboratorijskega testiranja
 
-Poleg zgoraj navedenih odgovornih oseb pri izvajanju raziskave sodeluje več kot 130 zaposlenih na Inštitutu za mikrobiologijo in imunologijo, bodisi neposredno (izvajanje laboratorijskega testiranja, telefonska in elektronska komunikacija z udeleženci raziskave, terenska koordinacija obiskov in odvzemov, priprava materialov za raziskavo, priprava in izdajanje izvidov) bodisi posredno (prevzem vsakodnevnih diagnostičnih obveznosti tistih, ki neposredno sodelujejo v raziskavi).
+Poleg zgoraj navedenih odgovornih oseb pri izvajanju raziskave sodeluje **več kot 130 zaposlenih na Inštitutu za mikrobiologijo in imunologijo**, bodisi neposredno (izvajanje laboratorijskega testiranja, telefonska in elektronska komunikacija z udeleženci raziskave, terenska koordinacija obiskov in odvzemov, priprava materialov za raziskavo, priprava in izdajanje izvidov) bodisi posredno (prevzem vsakodnevnih diagnostičnih obveznosti tistih, ki neposredno sodelujejo v raziskavi).
 
 #### Univerza v Ljubljani, Fakulteta za računalništvo in informatiko
 Informacijska podpora, razvoj baze podatkov, spletne rešitve, podatkovna analitika.
