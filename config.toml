@@ -135,3 +135,10 @@ link = "#"
 [[params.social]]
 icon = "ti-linkedin" # themify icon pack https://themify.me/themify-icons
 link = "#"
+
+
+
+
+
+[markup.goldmark.renderer]
+unsafe = true

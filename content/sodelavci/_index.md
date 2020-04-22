@@ -4,50 +4,51 @@ date: 2020-04-20T13:13:50+02:00
 draft: false
 ---
 
-#### Inštitut za mikrobiologijo in imunologijo
+#### Univerza v Ljubljani, Medicinska fakulteta, Inštitut za mikrobiologijo in imunologijo
+Zasnova in vodenje raziskave, koordinacija raziskave, neposredna komunikacija z udeleženci raziskave, delo na terenu (zbiranje vzorcev in vprašalnikov), laboratorijsko testiranje vzorcev, analiza rezultatov testiranja.
 
-#### Univerza v Ljubljani, Medicinska Fakulteta
+prof. dr. **Mario Poljak**, vodja raziskave, odgovorni raziskovalec\
+prof. dr. **Miroslav Petrovec**, vodja skupine\
+akad. prof. dr. **Tatjana Avšič - Županc**, vodja laboratorijskega testiranja\
+doc. dr. **Polona Maver Vodičar**, koordinator raziskave\
+znan. sod. dr. **Anja Oštrbenk Valenčak**, koordinator raziskave\
+znan. sod. dr. **Miša Korva**, koordinator laboratorijskega testiranja\
+znan. sod. dr. **Nataša Knap**, koordinator laboratorijskega testiranja
 
-Zasnova in vodenje raziskave, delo na terenu, laboratorijske analize vzorcev
-
-prof. dr. Mario Poljak, vodja raziskave
-prof. dr. Miroslav Petrovec, ___
-akad. prof. dr. Tatjana Avšič - Županc, ___
-doc. dr. Polona Maver, ___
-znan. sod. dr. Miša Korva, ___
-znan. sod. dr. Anja Ostrbenk, ___
-znan. sod. dr. Nataša Knap, ___
-
+Poleg zgoraj navedenih odgovornih oseb pri izvajanju raziskave sodeluje več kot 130 zaposlenih na Inštitutu za mikrobiologijo in imunologijo, bodisi neposredno (izvajanje laboratorijskega testiranja, telefonska in elektronska komunikacija z udeleženci raziskave, terenska koordinacija obiskov in odvzemov, priprava materialov za raziskavo, priprava in izdajanje izvidov) bodisi posredno (prevzem vsakodnevnih diagnostičnih obveznosti tistih, ki neposredno sodelujejo v raziskavi).
 
 #### Univerza v Ljubljani, Fakulteta za računalništvo in informatiko
+Informacijska podpora, razvoj baze podatkov, spletne rešitve, podatkovna analitika.
 
-Informacijska podpora, razvoj baze podatkov, spletne rešitve, podatkovna analitika
-
-prof. dr. Blaž Zupan, vodja skupine, podatkovna analitika
-Rafael Irgolič, koordinacija razvojne ekipe
-dr. Matjaž Pančur, strežniške tehnologije, varnost
-Jaka Kokošar, baza podatkov
-Robert Cvitkovič, baza podatkov
-Gregor Krmelj, strežniške tehnologije, varnost
-Nejc Debevec, uporabniški vmesniki
-Andreja Kovačič, testiranje, GDPR
-Nejc Hirci, razvoj spletne strani
-prof. dr. Janez Demšar, podatkovna analitika
+prof. dr. **Blaž Zupan**, vodja skupine, podatkovna analitika\
+**Rafael Frančišek Irgolič**, operativni vodja razvoja aplikacije\
+dr. **Matjaž Pančur**, strežniške tehnologije, varnost\
+**Jaka Kokošar**, baza podatkov, backend razvoj\
+**Robert Cvitkovič**, baza podatkov, backend razvoj\
+**Gregor Krmelj**, strežniške tehnologije, varnost\
+**Nejc Debevec**, uporabniški vmesniki\
+**Andreja Kovačič**, testiranje, GDPR, obdelava obrazcev\
+**Nejc Hirci**, razvoj spletne strani\
+prof. dr. **Janez Demšar**, podatkovna analitika\
+doc. dr. **Tomaž Hočevar**, obdelava obrazcev\
+dr. **Andrej Čopar**, strežniške tehnologije
 
 #### Univerzitetni klinični center, Ljubljana
+Klinična in epidemiološka obravnava preiskovancev z dokazano aktivno okužbo in njihovih kontaktov, odvzem kliničnih vzorcev na terenu.
 
-<kratek opis vloge v projektu>
-
-<seznam sodelavcev>
+Seznam sodelujočih bo posredovan kasneje.
 
 #### Univerza v Ljubljani, Medicinska fakulteta
+Administrativno in finančno vodenje raziskave, epidemiološka analiza podatkov.
 
-<kratek opis vloge v projektu>
-
-<seznam sodelavcev>
+Seznam sodelujočih bo posredovan kasneje.
 
 #### Univerza v Ljubljani, Fakulteta za družbene vede
+Priprava in izbor reprezentativnega vzorca populacije.
 
-Priprava in izbor reprezentativnega vzorca populacije
+dr. **Slavko Kurdija**, izbor in priprava vzorca populacije
 
-dr. Slavko Kurdija, izbor in priprava vzorca populacije
+#### Reševalna služba Pacient d.o.o.
+Odvzem kliničnih vzorcev na terenu.
+
+Seznam sodelujočih bo posredovan kasneje.
