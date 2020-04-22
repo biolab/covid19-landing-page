@@ -36,9 +36,9 @@ dr. **Andrej Čopar**, strežniške tehnologije
 #### Univerza v Ljubljani, Fakulteta za družbene vede
 Metodološko svetovanje.
 
-viš. znan. sod. dr. **Slavko Kurdija**, metodološko svetovanje, predlog vzorčnega načrta
-prof. dr. **Vasja Vehovar**, analiza vzorca in predlog za uteženje 
-dr. **May Doušak**, svetovanje za informacijsko podporo   
+viš. znan. sod. dr. **Slavko Kurdija**, metodološko svetovanje, predlog vzorčnega načrta\
+prof. dr. **Vasja Vehovar**, analiza vzorca in predlog za uteženje\
+dr. **May Doušak**, svetovanje za informacijsko podporo
 
 #### Univerzitetni klinični center, Ljubljana
 Klinična in epidemiološka obravnava preiskovancev z dokazano aktivno okužbo in njihovih kontaktov, odvzem kliničnih vzorcev na terenu.
