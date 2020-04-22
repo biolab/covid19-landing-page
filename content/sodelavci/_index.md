@@ -34,7 +34,7 @@ doc. dr. **Tomaž Hočevar**, obdelava obrazcev\
 dr. **Andrej Čopar**, strežniške tehnologije
 
 #### Univerza v Ljubljani, Fakulteta za družbene vede
-Metodološko svetovanje
+Metodološko svetovanje.
 
 viš. znan. sod. dr. **Slavko Kurdija**, metodološko svetovanje, predlog vzorčnega načrta
 prof. dr. **Vasja Vehovar**, analiza vzorca in predlog za uteženje 
