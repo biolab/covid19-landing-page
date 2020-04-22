@@ -33,6 +33,11 @@ prof. dr. **Janez Demšar**, podatkovna analitika\
 doc. dr. **Tomaž Hočevar**, obdelava obrazcev\
 dr. **Andrej Čopar**, strežniške tehnologije
 
+#### Univerza v Ljubljani, Fakulteta za družbene vede
+Priprava in izbor reprezentativnega vzorca populacije.
+
+dr. **Slavko Kurdija**, izbor in priprava vzorca populacije
+
 #### Univerzitetni klinični center, Ljubljana
 Klinična in epidemiološka obravnava preiskovancev z dokazano aktivno okužbo in njihovih kontaktov, odvzem kliničnih vzorcev na terenu.
 
@@ -42,11 +47,6 @@ Seznam sodelujočih bo posredovan kasneje.
 Administrativno in finančno vodenje raziskave, epidemiološka analiza podatkov.
 
 Seznam sodelujočih bo posredovan kasneje.
-
-#### Univerza v Ljubljani, Fakulteta za družbene vede
-Priprava in izbor reprezentativnega vzorca populacije.
-
-dr. **Slavko Kurdija**, izbor in priprava vzorca populacije
 
 #### Reševalna služba Pacient d.o.o.
 Odvzem kliničnih vzorcev na terenu.
