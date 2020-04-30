@@ -1,0 +1,14 @@
+<div class="col-lg-4 col-sm-6 mb-4">
+    <div class="card h-100 shadow bg-white my-block">
+        <div class="">
+            <img class="card-img-top" src="{{ .Params.thumbImage | relURL }}" alt="">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <a href="#">{{ .Title }}</a>
+                </h5>
+                <p class="card-text" style="font-size: 16px">{{ .Params.shortExcerpt }}</p>
+                <a href="{{ .Permalink }}" class="btn btn-sm btn-transparent pl-0">Preberi več</a>
+            </div>
+        </div>
+    </div>
+</div>
