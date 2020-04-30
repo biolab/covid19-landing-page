@@ -36,9 +36,23 @@
     </div>
   </div>
 </section>
+<!-- /banner -->
+
+<!-- blog -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
+      {{ range first 3 $paginator.Pages }}
+      {{ partial "post.html" . }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /blog -->
 
 <!-- opis -->
-<section class="section">
+<section class="section pt-0">
   <div class="container">
     <div class="row">
       <div class="col-lg-9 mx-auto">
@@ -74,7 +88,8 @@
     </div>
   </div>
 </section>
-<!-- /cta -->
+<!-- /logos -->
+
 <style>
 
 </style>

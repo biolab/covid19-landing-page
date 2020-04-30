@@ -49,6 +49,10 @@ link = "plugins/search/search.js"
 URL = "sodelavci"
 name = "Sodelavci"
 weight = 1
+[[menu.main]]
+URL = "blog"
+name = "Raziskava"
+weight = 2
 
 # footer menu
 [[menu.footer]]
