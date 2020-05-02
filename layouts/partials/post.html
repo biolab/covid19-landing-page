@@ -3,10 +3,11 @@
         <div class="">
             <img class="card-img-top" src="{{ .Params.thumbImage | relURL }}" alt="">
             <div class="card-body">
+                <div class="post-meta mb-2">{{ .Params.Author }}, {{ .PublishDate.Format "2. 1. 2006" }}</div>
                 <h5 class="card-title">
-                    <a href="#">{{ .Title }}</a>
+                    {{ .Title }}
                 </h5>
-                <p class="card-text" style="font-size: 16px">{{ .Params.shortExcerpt }}</p>
+                <p class="card-text">{{ .Params.shortExcerpt }}</p>
                 <a href="{{ .Permalink }}" class="btn btn-sm btn-transparent pl-0">Preberi več</a>
             </div>
         </div>

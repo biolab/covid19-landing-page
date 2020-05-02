@@ -1,13 +1,14 @@
 <article class="mb-5">
   <h2 class="h4"><a class="post-title" href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
   <div class="mb-3 post-meta">
-    <a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize | lower }}">{{ .Params.Author | title }}</a>,
-    {{ .PublishDate.Format "2. 1. 2006" }}
+    {{ .Params.Author | title }}, {{ .PublishDate.Format "2. 1. 2006" }}
   </div>
-  {{ with .Params.thumbImage}}
+  {{ if .Params.thumbImage}}
+  <a href="{{.Permalink}}">
   <figure class="figure">
-    <img class="figure-img img-fluid" src= "{{ . | relURL }}" alt="">
+    <img class="figure-img img-fluid" src= "{{ .Params.frontPageImage | relURL }}" alt="">
   </figure>
+  </a>
   {{end}}
   <p>{{.Params.longExcerpt}}</p>
   <a href="{{ .Permalink }}" class="btn btn-sm btn-transparent pl-0">Preberi več</a>

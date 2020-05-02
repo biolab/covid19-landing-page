@@ -47,6 +47,14 @@ p {
 .card-body {
     padding: 1.25rem 0.25rem;
 }
+
+.btn-transparent {
+    border-bottom: none;
+}
+.btn-transparent:hover {
+    border-bottom: 1px solid #e8505b;
+}
+
 @media only screen and (max-width: 1280px) {
     .desk-img {
         padding-right: 1rem !important;
