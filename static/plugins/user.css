@@ -243,6 +243,8 @@ p {
     .logo-container,
     .img-wrapper,
     img {
-        max-width: 100% !important;
+        max-width: 70% !important;
+        margin-left: 15% !important;
+        margin-right: 15% !important;
     }
 }
