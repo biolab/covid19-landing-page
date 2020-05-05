@@ -36,6 +36,14 @@ p {
     color: #e8505b;
 }
 
+.card-post-title:hover {
+    text-decoration: none;
+}
+
+.card-title:hover {
+    color: #e8505b;
+}
+
 .banner {
     padding: 150px 0 150px;
 }
@@ -46,6 +54,10 @@ p {
 }
 .card-body {
     padding: 1.25rem 0.25rem;
+}
+
+.btn {
+    text-transform: none;
 }
 
 .btn-transparent {
