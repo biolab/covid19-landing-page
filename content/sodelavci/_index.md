@@ -31,7 +31,8 @@ dr. **Matjaž Pančur**, strežniške tehnologije, varnost\
 **Nejc Hirci**, razvoj spletne strani\
 prof. dr. **Janez Demšar**, podatkovna analitika\
 doc. dr. **Tomaž Hočevar**, obdelava obrazcev\
-dr. **Andrej Čopar**, strežniške tehnologije
+dr. **Andrej Čopar**, strežniške tehnologije\
+**Ajda Pretnar**, dokumentacija, spletne strani
 
 #### Univerza v Ljubljani, Fakulteta za družbene vede
 Metodološko svetovanje.
