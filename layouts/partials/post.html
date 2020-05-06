@@ -1,12 +1,12 @@
 <div class="col-lg-4 col-sm-6 mb-4">
     <div class="card h-100 shadow bg-white my-block">
         <div class="">
-            <img class="card-img-top" src="{{ .Params.thumbImage | relURL }}" alt="">
+            <a href="{{.Permalink}}"><img class="card-img-top" src="{{ .Params.thumbImage | relURL }}" alt=""></a>
             <div class="card-body">
                 <div class="post-meta mb-2">{{ .PublishDate.Format "2. 1. 2006" }}</div>
-                <h5 class="card-title">
+                <a href="{{.Permalink}}" class="card-post-title"><h5 class="card-title">
                     {{ .Title }}
-                </h5>
+                </h5></a>
                 <p class="card-text">{{ .Params.shortExcerpt }}</p>
                 <a href="{{ .Permalink }}" class="btn btn-sm btn-transparent pl-0">Preberi več</a>
             </div>
