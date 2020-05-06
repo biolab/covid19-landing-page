@@ -29,8 +29,9 @@ dr. **Matjaž Pančur**, strežniške tehnologije, varnost\
 **Nejc Debevec**, uporabniški vmesniki\
 **Andreja Kovačič**, testiranje, GDPR, obdelava obrazcev\
 **Nejc Hirci**, razvoj spletne strani\
-prof. dr. **Janez Demšar**, podatkovna analitika\
 doc. dr. **Tomaž Hočevar**, obdelava obrazcev\
+prof. dr. **Janez Demšar**, podatkovna analitika\
+prof. dr. **Erik Štrumbelj**, podatkovna analitika\
 dr. **Andrej Čopar**, strežniške tehnologije\
 **Ajda Pretnar**, dokumentacija, spletne strani
 
