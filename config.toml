@@ -81,7 +81,7 @@ google_analitycs_id = "UA-164040351-1" # your id
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # copyright
-copyright = "&copy; Spletno stran vzdržujejo in informacijsko-analitično podporo projektu nudijo sodelavci iz [Biolaba](https://fri.uni-lj.si/en/laboratory/biolab) na [UL FRI](https://www.fri.uni-lj.si/sl) – razvijalci programa za podatkovno rudarjenje [Orange](https://orange.biolab.si/). Logo projekta je izrisala Lara Zupan. (C) Ljubljana, 2020."
+copyright = "&copy; Spletno stran vzdržujejo in informacijsko-analitično podporo projektu nudijo sodelavci iz [Biolaba](https://fri.uni-lj.si/en/laboratory/biolab) na [UL FRI](https://www.fri.uni-lj.si/sl) – razvijalci programa za podatkovno rudarjenje [Orange](https://orange.biolab.si/). Logo projekta je izrisala Lara Zupan. Ljubljana, 2020."
 # preloader
 [params.preloader]
 enable = true
